@@ -20,7 +20,7 @@ while runtime == True:
         else:
             print("Paper covers rock! You lose.")
     elif user_action == "paper":
-        if ai_action == "paper": #Bug here
+        if ai_action == "rock":
             print("Paper covers rock! You win!")
         else:
             print("Scissors cuts paper! You lose.")
