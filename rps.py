@@ -5,7 +5,7 @@
 import random
 
 runtime = True
-
+#implemented repeated play
 while runtime == True:
     user_action = input("Enter throw (rock, paper, scissors): ")
     ai_action = random.choice(["rock", "paper", "scissors"])
